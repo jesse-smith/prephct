@@ -1,0 +1,16 @@
+Package: prephct
+Title: Data Prep Functions for MLinHCT Statistical Modeling
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jesse", "Smith", , "jesse.smith@stjude.org", role = c("aut", "cre"))
+Description: `{prephct}` provides helper functions to prepare MLinHCT data for
+    statistical modeling.
+License: MIT + file COPYRIGHT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr

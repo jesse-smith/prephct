@@ -1,0 +1,28 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# prephct
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+`{prephct}` contains helper functions to prepare for event prediction in
+the MLinHCT data. It is currently focused on handling St. Jude data,
+with an eye towards other datasets in the future.
+
+## Installation
+
+To install prephct, you will need to be able to build R packages. On
+Windows, this means you will need to have a version of
+[RTools](https://cran.r-project.org/bin/windows/Rtools/ "RTools: Toolchains for building R and R packages from source on Windows")
+installed that is compatible with the R version you are using. You can
+install the development version of `{prephct}` like so:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("jesse-smith/prephct")
+```
+
+In the near future, this should be replaced by an
+[R-universe](https://r-universe.dev/search/ "R-universe: personal package repositories for R!")
+repository, which will remove the need to use Rtools on Windows.
